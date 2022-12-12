@@ -1,4 +1,4 @@
-# PHP docker build slave
+# NodeJS docker build slave
 Docker build slave for php for Jenkins
 
 ## About
