@@ -32,6 +32,9 @@ RUN apt-get install -qy unzip curl
 RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -qy nodejs
 
+# update npm
+RUN npm install -g npm@9.2.0
+
 # install angular cli
 
 RUN npm install -g @angular/cli@latest
