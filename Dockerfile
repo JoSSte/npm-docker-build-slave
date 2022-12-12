@@ -41,7 +41,7 @@ RUN npm install -g @angular/cli@latest
 
 # install chrome headless
 
-RUN npm install -g karma-chrome-launcher
+RUN npm install -g -D karma-chrome-launcher puppeteer
 
 # Cleanup old packages
 RUN apt-get -qy autoremove
