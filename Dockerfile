@@ -42,7 +42,7 @@ RUN npm install -g @angular/cli@latest
 # install chrome headless
 
 RUN npm install -g -D karma-chrome-launcher puppeteer
-RUN apt-get install -qy libappindicator1 fonts-liberation
+RUN apt-get install -qy libappindicator1 fonts-liberation libgbm1 libgtk-4-1 libxkbcommon0 xdg-utils
 RUN wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 RUN dpkg -i google-chrome*.deb
 
