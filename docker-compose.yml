@@ -3,4 +3,4 @@ version:  '2'
 services:
   man:
     build: .
-    image: josste/npm-docker-build-slave:v1
+    image: jstevnsvig/npm-docker-build-slave:v1
